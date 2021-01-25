@@ -1,7 +1,30 @@
-# Getting Started with Create React App
+# Graph client for an article application. 
+
+This app will create an article clinet. It paris with another app
+graphqlnode server
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## run and install
+this was a bit based on an example i found online, build wans't working for me
+so i regenerated all this project related logic. i used some differnet libraries
 
+the main issue was apollo-boost wasn't working. I think it should work, had soemthing to do with how i was referencing
+and there were conflicts. 
+
+
+execute these packages:
+npx create-react-app client-react-apollo
+yarn add apollo-boost @apollo/react-hooks graphql
+
+here is  a really nice explanatio
+
+https://www.geeksforgeeks.org/what-are-the-differences-between-npm-and-npx/
+
+Some refereneces: 
+
+https://www.freecodecamp.org/news/apollo-graphql-how-to-build-a-full-stack-app-with-react-and-node-js/
+https://blog.logrocket.com/graphql-react-for-noobs/
 ## Available Scripts
 
 In the project directory, you can run:
